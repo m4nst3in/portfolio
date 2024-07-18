@@ -9,6 +9,7 @@ import {
 import { GiEagleEmblem } from "react-icons/gi";
 import { FaCrown } from "react-icons/fa";
 export default function Hero() {
+  const isPortuguese = navigator.language.startsWith('pt');
   return (
     <section className="h-[90vh] bg-gray-950 flex items-center" id="" style={{ backgroundImage: `url(${backgroundImage})` }}>
     <div className="text-center">
@@ -19,13 +20,13 @@ export default function Hero() {
         </div>
       </div>
       <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight md:text-7xl text-white mt-1 md:mx-20">
-        Full-stack{" "}
+        {isPortuguese ? 'Desenvolvedor' : 'Full-stack'}{" "}
         <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-green-500">
           C# & .NET
         </b>{" "}
-        developer creating{" "}
+        {isPortuguese ? 'especializado em aplicações' : 'developer creating'}{" "}
         <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500">
-          desktop & web applications
+          {isPortuguese ? 'desktop & web' : 'desktop & web applications'}
         </b>
           .
         </h1>
@@ -36,9 +37,7 @@ export default function Hero() {
                 +1
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
-              year of
-                <br />
-              experience
+              {isPortuguese ? 'ano de\nexperiência' : 'year of\nexperience'}
               </span>
             </li>
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
@@ -50,9 +49,7 @@ export default function Hero() {
               <TypingAnimation start={1} end={10} interval={200} suffix="k" />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
-                Lines of
-                <br />
-                code written
+              {isPortuguese ? 'Linhas de\ncódigo escritas' : 'Lines of\ncode written'}
               </span>
             </li>
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
@@ -61,9 +58,7 @@ export default function Hero() {
               <TypingAnimation prefix="+" start={1} end={100} interval={13} />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
-                commits
-                <br />
-                realized
+              {isPortuguese ? 'commits\nrealizados' : 'commits\nrealized'}
               </span>
             </li>
           </ul>
@@ -71,11 +66,11 @@ export default function Hero() {
         <div className="text-center w-full mt-7 md:mt-10 ">
           <Button onClick={() => window.location.href = '' } className="px-5 bg-gradient-to-r from-white to-sky-200 text-gray-900 font-medium text-md rounded-full mx-3 font-mono hover:bg-white hover:opacity-90 md:scale-150 md:mx-14">
             <IoDocumentTextOutline className="mr-1 h-4 w-4" />
-            Resume
+            {isPortuguese ? 'Currículo' : 'Resume'}
           </Button>
           <Button onClick={() => window.location.href = '#contact'} className="px-5 bg-gradient-to-r from-white to-sky-200 text-black text-md font-medium rounded-full mx-3 font-mono md:scale-150 md:mx-14">
             <IoChatbubbleEllipsesOutline className="mr-1 h-4 w-4" />
-            Contact
+            {isPortuguese ? 'Contato' : 'Contact'}
           </Button>
         </div>
       </div>
