@@ -30,7 +30,7 @@ export default function About() {
           </SlideAnimation>
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "Meu objetivo é usar minhas habilidades para melhorar as coisas, especialmente no back-end." : "My aim is to use my skills to make things better, especially on the back-end."}
+              {isPortuguese ? "Meu objetivo é usar minhas habilidades para ajudar no desenvolvimento de projetos, especialmente no back-end." : "My aim is to use my skills to make things better, especially on the back-end."}
             </p>
           </SlideAnimation>
           <SlideAnimation>
