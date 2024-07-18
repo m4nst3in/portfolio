@@ -51,7 +51,7 @@ export default function Skills() {
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className={`py-4 px-${isMobile ? '4' : '0'} rounded-xl mx-1.5 my-1.5 md:my-2 md:mx-2 text-white`}>
+                <div className={`flex flex-col items-center justify-center py-4 px-${isMobile ? '4' : '0'} rounded-xl mx-1.5 my-1.5 md:my-2 md:mx-2 text-white`}>
                     <Icon
                       className="h-10 w-10 md:h-16 md:w-16"
                       icon={skill.icon}
