@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import React, { useState, useEffect } from 'react';
 import {
   Tooltip,
   TooltipContent,
@@ -14,7 +15,24 @@ type Skill = {
   proficiency: string;
 };
 
+const useIsMobile = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return isMobile;
+};
+
 export default function Skills() {
+  const isMobile = useIsMobile();
   return (
     <section id="skills">
       <header className="mx-6 pt-6 md:mx-10">
@@ -33,7 +51,7 @@ export default function Skills() {
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="py-4 px-1 rounded-xl mx-1.5 my-1.5 md:my-2 md:mx-2 text-white">
+                  <div className={`py-4 px-${isMobile ? '2' : '0'} rounded-xl mx-1.5 my-1.5 md:my-2 md:mx-2 text-white`}>
                     <Icon
                       className="h-10 w-10 md:h-16 md:w-16"
                       icon={skill.icon}
