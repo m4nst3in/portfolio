@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 w-full">
       <header className="mx-6 pt-6 md:mx-10">
-        <a href="m4nst3in.github.io" className="text-2xl md:text-4xl font-semibold tracking-tight text-white flex flex-row">
+        <a href="#" className="text-2xl md:text-4xl font-semibold tracking-tight text-white flex flex-row">
           <p className="text-green-400 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200">m4ns<span className="text-white">.dev</span></p>
         </a>
         <div className="h-1 w-14 rounded-full bg-gradient-to-r from-white to-sky-500 md:w-20 md:h-2 pt-1"></div>
