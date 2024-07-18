@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Tooltip,
   TooltipContent,
