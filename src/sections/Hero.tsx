@@ -6,12 +6,14 @@ import {
   IoChatbubbleEllipsesOutline,
 } from "react-icons/io5";
 import { GiEagleEmblem } from "react-icons/gi";
+import { FaCrown } from "react-icons/fa";
 export default function Hero() {
   return (
     <section className="h-[90vh] bg-gray-950 flex items-center" id="" style={{ backgroundImage: `url(${backgroundImage})` }}>
     <div className="text-center">
       <div className="w-full flex justify-center items-center mt-10 mb-5">
         <div className="py-1.5 px-4 rounded-full md:py-2 md:px-6 md:text-xl" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <FaCrown className="text-yellow-400" size="2em" style={{ marginBottom: '-1.0em' }} />
           <GiEagleEmblem className="text-green-500" size="7em" />
         </div>
       </div>
