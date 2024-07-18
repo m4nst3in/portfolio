@@ -52,8 +52,16 @@
     "icon": "skill-icons:tailwindcss-light"
   },
   {
+    "name": "MySQL",
+    "icon": "skill-icons:mysql-light"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "devicon:mongodb"
+  },
+  {
     "name": "Vercel",
-    "icon": "skill-icons:vercel-light"
+    "icon": "devicon:vercel"
   },
   {
     "name": "Git",
