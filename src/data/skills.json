@@ -40,6 +40,22 @@
     "icon": "logos:nodejs-icon"
   },
   {
+    "name": "Vite",
+    "icon": "logos:vitejs"
+  },
+  {
+    "name": "Vue",
+    "icon": "logos:vue"
+  },
+  {
+    "name": "Tailwind",
+    "icon": "skill-icons:tailwindcss-light"
+  },
+  {
+    "name": "Vercel",
+    "icon": "skill-icons:vercel-light"
+  },
+  {
     "name": "Git",
     "icon": "devicon:git"
   },

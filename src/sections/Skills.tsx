@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/tooltip";
 import SlideAnimation from "@/components/slideInAnimation";
 import skillsData from "@/data/skills.json";
+import React from "react";
 
 type Skill = {
   name: string;
