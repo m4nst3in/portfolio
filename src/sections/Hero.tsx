@@ -11,7 +11,7 @@ export default function Hero() {
     <section className="h-[90vh] bg-gray-950 flex items-center" id="" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="text-center">
         <div className="w-full flex justify-center items-center mt-10 mb-5">
-        <div className=" py-1.5 px-4 font-mono text-sm rounded-full md:py-2 md:px-6 md:text-xl" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className=" py-1.5 px-4 rounded-full md:py-2 md:px-6 md:text-xl" style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={myLogo} style={{ width: '25%' }} />
           </div>
         </div>
@@ -66,11 +66,11 @@ export default function Hero() {
           </ul>
         </div>
         <div className="text-center w-full mt-7 md:mt-10 ">
-          <Button onClick={() => window.location.href = '' } className="px-5 bg-white text-gray-900 font-medium text-md rounded-full mx-3 font-mono hover:bg-white hover:opacity-90 md:scale-150 md:mx-14">
+          <Button onClick={() => window.location.href = '' } className="px-5 bg-gradient-to-r from-white to-sky-200 text-gray-900 font-medium text-md rounded-full mx-3 font-mono hover:bg-white hover:opacity-90 md:scale-150 md:mx-14">
             <IoDocumentTextOutline className="mr-1 h-4 w-4" />
             Resume
           </Button>
-          <Button onClick={() => window.location.href = '#contact'} className="px-5 bg-gray-900 text-white text-md font-medium rounded-full mx-3 font-mono md:scale-150 md:mx-14">
+          <Button onClick={() => window.location.href = '#contact'} className="px-5 bg-gradient-to-r from-white to-sky-200 text-black text-md font-medium rounded-full mx-3 font-mono md:scale-150 md:mx-14">
             <IoChatbubbleEllipsesOutline className="mr-1 h-4 w-4" />
             Contact
           </Button>

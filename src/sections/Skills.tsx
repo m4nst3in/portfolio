@@ -11,6 +11,7 @@ import skillsData from "../data/skills.json";
 type Skill = {
   name: string;
   icon: string;
+  proficiency: string;
 };
 
 export default function Skills() {
@@ -20,9 +21,9 @@ export default function Skills() {
         <h1 className="text-green-500 font-bold text-3xl md:text-5xl">
           Skills
         </h1>
-        <div className="h-1 w-14 rounded-full bg-gradient-to-r from-green-400 to-white md:w-20 md:h-2"></div>
+        <div className="h-1 w-14 rounded-full bg-gradient-to-r from-white to-sky-500 md:w-20 md:h-2"></div>
         <p className="text-white font-[400] text-md mt-3">
-          Technologies and tools I used.
+          Technologies and tools I use.
         </p>
       </header>
 
@@ -32,11 +33,12 @@ export default function Skills() {
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="py-4 px-4 bg-gray-900 rounded-xl mx-1.5 my-1.5 md:my-2 md:mx-2 text-white">
+                  <div className="py-4 px-0 rounded-xl mx-1.5 my-1.5 md:my-2 md:mx-2 text-white">
                     <Icon
                       className="h-10 w-10 md:h-16 md:w-16"
                       icon={skill.icon}
                     />
+                    <div className="text-yellow-400 text-center mt-1 animate-pulse">{skill.proficiency}</div>
                   </div>
                 </TooltipTrigger>
                 <TooltipContent className="bg-gray-800 border-none text-white">

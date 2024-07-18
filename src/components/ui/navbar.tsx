@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
     <nav className="sticky top-0 w-full h-14 md:h-20 bg-gray-950 flex flex-row justify-center items-center z-20 backdrop-filter backdrop-blur-md bg-opacity-30">
       <div className="flex flex-row items-center mx-4">
         <a href="m4nst3in.github.io" className="text-2xl md:text-3xl font-semibold tracking-tight text-white flex flex-row">
-          <p className="text-green-400" >m4ns<span className="text-white">.dev</span></p>
+        <p className="text-green-400 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-200" >m4ns<span className="text-white">.dev</span></p>       
         </a>
       </div>
       <div className="flex flex-row items-center mx-3">

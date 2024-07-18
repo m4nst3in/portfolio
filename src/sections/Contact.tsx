@@ -8,7 +8,7 @@ export default function Contact() {
           <h1 className="text-green-500 font-bold text-3xl md:text-5xl">
             Contact
           </h1>
-          <div className="h-1 w-14 rounded-full bg-gradient-to-r from-green-400 to-white md:w-20 md:h-2"></div>
+          <div className="h-1 w-14 rounded-full bg-gradient-to-r from-white to-sky-500 md:w-20 md:h-2"></div>
         </header>
         <div className="mx-6 md:mx-10 mt-5 flex flex-col md:flex-row md:flex-wrap mb-3">
           <SlideAnimation>

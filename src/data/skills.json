@@ -1,102 +1,113 @@
 [
   {
     "name": "C#",
-    "icon": "devicon:csharp"
+    "icon": "devicon:csharp",
+    "proficiency": "★★★★"
+  },
+  {
+    "name": "C++",
+    "icon": "devicon:cplusplus",
+    "proficiency": "★"
   },
   {
     "name": ".NET",
-    "icon": "skill-icons:dotnet"
+    "icon": "skill-icons:dotnet",
+    "proficiency": "★★★"
   },
+
   {
     "name": "Xamarin",
-    "icon": "devicon:xamarin"
+    "icon": "devicon:xamarin",
+    "proficiency": "★★"
   },
   {
     "name": "Java",
-    "icon": "devicon:java"
+    "icon": "devicon:java",
+    "proficiency": "★★"
   },
   {
     "name": "Spring",
-    "icon": "devicon:spring"
+    "icon": "devicon:spring",
+    "proficiency": "★"
   },
   {
     "name": "TypeScript",
-    "icon": "logos:typescript-icon"
+    "icon": "logos:typescript-icon",
+    "proficiency": "★★"
   },
   {
     "name": "Html",
-    "icon": "vscode-icons:file-type-html"
+    "icon": "vscode-icons:file-type-html",
+    "proficiency": "★★★★"
   },
   {
     "name": "Css",
-    "icon": "vscode-icons:file-type-css"
+    "icon": "vscode-icons:file-type-css",
+    "proficiency": "★★★"
   },
   {
     "name": "React",
-    "icon": "logos:react"
+    "icon": "logos:react",
+    "proficiency": "★★"
   },
   {
     "name": "Node.js",
-    "icon": "logos:nodejs-icon"
+    "icon": "logos:nodejs-icon",
+    "proficiency": "★★"
   },
   {
     "name": "Vite",
-    "icon": "logos:vitejs"
+    "icon": "logos:vitejs",
+    "proficiency": "★★"
   },
   {
     "name": "Vue",
-    "icon": "logos:vue"
+    "icon": "logos:vue",
+    "proficiency": "★"
   },
   {
     "name": "Tailwind",
-    "icon": "skill-icons:tailwindcss-light"
+    "icon": "skill-icons:tailwindcss-light",
+    "proficiency": "★"
   },
   {
     "name": "MySQL",
-    "icon": "skill-icons:mysql-light"
+    "icon": "skill-icons:mysql-light",
+    "proficiency": "★★★★"
   },
   {
     "name": "MongoDB",
-    "icon": "devicon:mongodb"
+    "icon": "devicon:mongodb",
+    "proficiency": "★★"
   },
   {
     "name": "Vercel",
-    "icon": "devicon:vercel"
+    "icon": "skill-icons:vercel-light",
+    "proficiency": "★★★★"
   },
   {
     "name": "Git",
-    "icon": "devicon:git"
+    "icon": "devicon:git",
+    "proficiency": "★★★★"
   },
   {
     "name": "Github",
-    "icon": "fontisto:github"
+    "icon": "fontisto:github",
+    "proficiency": "★★★★★"
   },
   {
     "name": "Windows",
-    "icon": "devicon:windows11"
+    "icon": "devicon:windows11",
+    "proficiency": "★★★★★"
   },
   {
     "name": "Arch Linux",
-    "icon": "logos:archlinux"
+    "icon": "logos:archlinux",
+    "proficiency": "★★★★★"
   },
   {
     "name": "Ubuntu Linux",
-    "icon": "logos:ubuntu"
-  },
-  {
-    "name": "VS Code",
-    "icon": "devicon:vscode"
-  },
-  {
-    "name": "Visual Studio",
-    "icon": "devicon:visualstudio"
-  },
-  {
-    "name": "JetBrains Rider",
-    "icon": "devicon:rider"
-  },
-  {
-    "name": "JetBrains Intellij",
-    "icon": "devicon:intellij"
+    "icon": "logos:ubuntu",
+    "proficiency": "★★★★"
   }
 ]
