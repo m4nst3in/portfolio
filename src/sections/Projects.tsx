@@ -12,7 +12,7 @@ export default function Projects() {
         </header>
         <div className="mx-7 md:mx-10 flex justify-center items-center flex-col md:flex-row md:flex-wrap mt-12 md:justify-start ">
         <Project
-          title="m4Installers ⚡"
+          title="m4Installers"
           description="A console application that helps downloading essential software to PC."
           image={ssThumbnail}
           link="https://github.com/m4nst3in/m4Installers"

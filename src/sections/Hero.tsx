@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-import backgroundImage from '@/assets/images/fundo6.jpg';
+import backgroundImage from '@/assets/images/fundo.jpg';
 import TypingAnimation from '@/components/TypingAnimation';
 import {
   IoDocumentTextOutline,
