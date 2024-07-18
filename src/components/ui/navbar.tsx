@@ -11,6 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+const isPortuguese = navigator.language.startsWith('pt');
 const Navbar: React.FC = () => {
   return (
     <nav className="sticky top-0 w-full h-14 md:h-20 bg-gray-950 flex flex-row justify-center items-center z-20 backdrop-filter backdrop-blur-md bg-opacity-30">
@@ -35,14 +36,14 @@ const Navbar: React.FC = () => {
             <HiOutlineMenuAlt3 />
           </DropdownMenuTrigger>
           <DropdownMenuContent className="bg-gray-900 border-none text-white mx-3 my-3">
-            <DropdownMenuLabel>Go To</DropdownMenuLabel>
+            <DropdownMenuLabel>{isPortuguese ? 'Menu' : 'Go To'}</DropdownMenuLabel>
             <DropdownMenuSeparator className="bg-green-500" />
             <DropdownMenuItem>
               <a
                 className="hover:text-green-700 transition-all duration-300"
                 href="#"
               >
-                Start
+                {isPortuguese ? 'Início' : 'Home'}
               </a>
             </DropdownMenuItem>
             <DropdownMenuItem>
@@ -50,7 +51,7 @@ const Navbar: React.FC = () => {
                 className="hover:text-green-700 transition-all duration-300"
                 href="#about"
               >
-                About
+                {isPortuguese ? 'Sobre' : 'About'}
               </a>
             </DropdownMenuItem>
             <DropdownMenuItem>
@@ -58,7 +59,7 @@ const Navbar: React.FC = () => {
                 className="hover:text-green-700 transition-all duration-300"
                 href="#skills"
               >
-                Skills
+              {isPortuguese ? 'Habilidades' : 'Skills'}
               </a>
             </DropdownMenuItem>
             <DropdownMenuItem>
@@ -66,7 +67,8 @@ const Navbar: React.FC = () => {
                 className="hover:text-green-700 transition-all duration-300"
                 href="#experience"
               >
-                Experience
+               {isPortuguese ? 'Experiência' : 'Experience'}
+
               </a>
             </DropdownMenuItem>
             <DropdownMenuItem>
@@ -74,7 +76,7 @@ const Navbar: React.FC = () => {
                 className="hover:text-green-700 transition-all duration-300"
                 href="#education"
               >
-                Education
+                {isPortuguese ? 'Educação' : 'Education'}
               </a>
             </DropdownMenuItem>
             <DropdownMenuItem>
@@ -82,7 +84,7 @@ const Navbar: React.FC = () => {
                 className="hover:text-green-700 transition-all duration-300"
                 href="#projects"
               >
-                Projects
+                {isPortuguese ? 'Projetos' : 'Projects'}
               </a>
             </DropdownMenuItem>
             <DropdownMenuItem>
@@ -90,7 +92,7 @@ const Navbar: React.FC = () => {
                 className="hover:text-green-700 transition-all duration-300"
                 href="#contact"
               >
-                Contact
+                {isPortuguese ? 'Contato' : 'Contact'}
               </a>
             </DropdownMenuItem>
           </DropdownMenuContent>
