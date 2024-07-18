@@ -1,5 +1,6 @@
 import Project from "@/components/ProjectCard";
-import ssThumbnail from "@/assets/images/m4Installers.png";
+import ssThumbnail1 from "@/assets/images/m4Installers.png";
+import ssThumbnail2 from "@/assets/images/portfolio.png";
 export default function Projects() {
   return (
     <>
@@ -14,13 +15,29 @@ export default function Projects() {
         <Project
           title="m4Installers"
           description="A console application that helps downloading essential software to PC."
-          image={ssThumbnail}
+          image={ssThumbnail1}
           link="https://github.com/m4nst3in/m4Installers"
           repo="https://github.com/m4nst3in/m4Installers"
           langs={[
             "C#",
             ".NET", 
             "Windows", 
+          ]}
+        />
+        <Project
+          title="m4Portfolio"
+          description="My personal website, constructed with Vite, Vue, Tailwind CSS & React."
+          image={ssThumbnail2}
+          link="m4nst3in.vercel.app"
+          repo="m4nst3in.vercel.app"
+          langs={[
+            "Typescript",
+            "React", 
+            "Vue",
+            "Vite",
+            "Html", 
+            "Tailwind",
+            "Vercel",
           ]}
         />
           

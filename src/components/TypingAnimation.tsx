@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+/*import React, { useState, useEffect } from 'react';
 
 const TypingAnimation: React.FC = () => {
     const fullText = "Hello, I'm Vinicius.";
@@ -33,4 +33,4 @@ const TypingAnimation: React.FC = () => {
     return <span>{text}</span>;
   };
   
-  export default TypingAnimation;
+  export default TypingAnimation;*/

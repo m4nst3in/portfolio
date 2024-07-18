@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 import backgroundImage from '@/assets/images/fundo.jpg';
-import TypingAnimation from '@/components/TypingAnimation';
+import myLogo from '@/assets/images/mylogo.png';
 import {
   IoDocumentTextOutline,
   IoChatbubbleEllipsesOutline,
@@ -11,8 +11,8 @@ export default function Hero() {
     <section className="h-[90vh] bg-gray-950 flex items-center" id="" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="text-center">
         <div className="w-full flex justify-center items-center mt-10 mb-5">
-          <div className="text-white text-center py-1.5 px-4 font-mono text-sm bg-gray-900 rounded-full md:py-2 md:px-6 md:text-xl">
-          <TypingAnimation />
+        <div className=" py-1.5 px-4 font-mono text-sm rounded-full md:py-2 md:px-6 md:text-xl" style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src={myLogo} style={{ width: '25%' }} />
           </div>
         </div>
         <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight md:text-7xl text-white mt-1 md:mx-20">
@@ -22,7 +22,7 @@ export default function Hero() {
           </b>{" "}
           developer creating{" "}
           <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500">
-           desktop & web applications
+            desktop & web applications
           </b>
           .
         </h1>
