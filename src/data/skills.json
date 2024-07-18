@@ -1,0 +1,78 @@
+[
+  {
+    "name": "C#",
+    "icon": "devicon:csharp"
+  },
+  {
+    "name": ".NET",
+    "icon": "skill-icons:dotnet"
+  },
+  {
+    "name": "Xamarin",
+    "icon": "devicon:xamarin"
+  },
+  {
+    "name": "Java",
+    "icon": "devicon:java"
+  },
+  {
+    "name": "Spring",
+    "icon": "devicon:spring"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "logos:typescript-icon"
+  },
+  {
+    "name": "Html",
+    "icon": "vscode-icons:file-type-html"
+  },
+  {
+    "name": "Css",
+    "icon": "vscode-icons:file-type-css"
+  },
+  {
+    "name": "React",
+    "icon": "logos:react"
+  },
+  {
+    "name": "Node.js",
+    "icon": "logos:nodejs-icon"
+  },
+  {
+    "name": "Git",
+    "icon": "devicon:git"
+  },
+  {
+    "name": "Github",
+    "icon": "fontisto:github"
+  },
+  {
+    "name": "Windows",
+    "icon": "devicon:windows11"
+  },
+  {
+    "name": "Arch Linux",
+    "icon": "logos:archlinux"
+  },
+  {
+    "name": "Ubuntu Linux",
+    "icon": "logos:ubuntu"
+  },
+  {
+    "name": "VS Code",
+    "icon": "devicon:vscode"
+  },
+  {
+    "name": "Visual Studio",
+    "icon": "devicon:visualstudio"
+  },
+  {
+    "name": "JetBrains Rider",
+    "icon": "devicon:rider"
+  },
+  {
+    "name": "JetBrains Intellij",
+    "icon": "devicon:intellij"
+  }
+]
