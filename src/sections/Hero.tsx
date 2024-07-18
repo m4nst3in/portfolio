@@ -1,29 +1,29 @@
 import { Button } from "@/components/ui/button";
 
 import backgroundImage from '@/assets/images/fundo.jpg';
-import myLogo from '@/assets/images/mylogo.png';
 import {
   IoDocumentTextOutline,
   IoChatbubbleEllipsesOutline,
 } from "react-icons/io5";
+import { GiEagleEmblem } from "react-icons/gi";
 export default function Hero() {
   return (
     <section className="h-[90vh] bg-gray-950 flex items-center" id="" style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <div className="text-center">
-        <div className="w-full flex justify-center items-center mt-10 mb-5">
-        <div className=" py-1.5 px-4 rounded-full md:py-2 md:px-6 md:text-xl" style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={myLogo} style={{ width: '25%' }} />
-          </div>
+    <div className="text-center">
+      <div className="w-full flex justify-center items-center mt-10 mb-5">
+        <div className="py-1.5 px-4 rounded-full md:py-2 md:px-6 md:text-xl" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <GiEagleEmblem className="text-green-500" size="7em" />
         </div>
-        <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight md:text-7xl text-white mt-1 md:mx-20">
-          Full-stack{" "}
-          <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-green-500">
-            C# & .NET
-          </b>{" "}
-          developer creating{" "}
-          <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500">
-            desktop & web applications
-          </b>
+      </div>
+      <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight md:text-7xl text-white mt-1 md:mx-20">
+        Full-stack{" "}
+        <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-green-500">
+          C# & .NET
+        </b>{" "}
+        developer creating{" "}
+        <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500">
+          desktop & web applications
+        </b>
           .
         </h1>
         <div className="flex justify-center items-center mt-5">
