@@ -1,36 +1,33 @@
-/*import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const TypingAnimation: React.FC = () => {
-    const fullText = "Hello, I'm Vinicius.";
-    const [text, setText] = useState('');
-    const [isDeleting, setIsDeleting] = useState(false);
-    const [speed, setSpeed] = useState(150);
-  
-    useEffect(() => {
-      let timer: ReturnType<typeof setTimeout>;
-  
-      if (isDeleting) {
-        setSpeed(100);
-        setIsDeleting(false);
-      }
-  
-      if (!isDeleting && text === fullText) {
-        timer = setTimeout(() => setIsDeleting(true), 3000);
-      } else if (isDeleting && text === '') {
-        setIsDeleting(false);
-        setSpeed(150);
-      } else {
-        timer = setTimeout(() => {
-          setText(currentText =>
-            isDeleting ? currentText.slice(0, currentText.length - 1) : currentText + fullText[currentText.length]
-          );
-        }, speed);
-      }
-  
+interface TypingAnimationProps {
+  start: number;
+  end: number;
+  interval: number;
+  suffix?: string;
+  prefix?: string; // Sufixo opcional para adicionar ao valor numérico
+}
+
+const TypingAnimation: React.FC<TypingAnimationProps> = ({ start, end, interval, suffix, prefix = '' }) => {
+  const [currentValue, setCurrentValue] = useState(start);
+
+  useEffect(() => {
+    if (currentValue < end) {
+      const timer = setTimeout(() => {
+        setCurrentValue(currentValue + 1);
+      }, interval);
       return () => clearTimeout(timer);
-    }, [text, isDeleting, speed, fullText]);
-  
-    return <span>{text}</span>;
-  };
-  
-  export default TypingAnimation;*/
+    }
+  }, [currentValue, end, interval]);
+
+  return (
+    <span
+      className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl"
+      id="code-lines"
+    >
+      {prefix}{currentValue}{suffix}
+    </span>
+  );
+};
+
+export default TypingAnimation;

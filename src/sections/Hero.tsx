@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import TypingAnimation from '@/components/TypingAnimation';
 
 import backgroundImage from '@/assets/images/fundo.jpg';
 import {
@@ -35,9 +36,9 @@ export default function Hero() {
                 +1
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
-                year of
+              year of
                 <br />
-                experience
+              experience
               </span>
             </li>
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
@@ -46,7 +47,7 @@ export default function Hero() {
                 className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl"
                 id="code-lines"
               >
-                10k
+              <TypingAnimation start={1} end={10} interval={200} suffix="k" />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
                 Lines of
@@ -57,7 +58,7 @@ export default function Hero() {
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
             <li className="flex flex-col sm:flex-row items-center gap-2">
               <span className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl">
-                +100
+              <TypingAnimation prefix="+" start={1} end={100} interval={13} />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
                 commits
