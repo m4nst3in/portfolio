@@ -15,17 +15,17 @@ export default function About() {
         <div className="mx-6 md:ml-10 md:mr-40 mt-8">
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "Sou um desenvolvedor full-stack em C# de 17 anos, focado principalmente em aplicações desktop, e estou nessa área há mais de dois anos." : "I'm a 17-year-old full-stack C# developer, mainly focusing on desktop applications, and I've been doing this for over two years now."}
+              {isPortuguese ? "Olá. Meu nome é Vinícius, nasci em Teodoro Sampaio, e sou um desenvolvedor full-stack C# de 17 anos, focado principalmente em aplicações desktop, e estou nessa área há mais de dois anos." : "Hi! I'm Vinicíus, and i was born in Teodoro Sampaio. I'm a 17-year-old full-stack C# developer, mainly focusing on desktop applications, and I've been doing this for over two years now."}
             </p>
           </SlideAnimation>
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "Trabalhei em alguns projetos, aprendendo a criar aplicações desktop e web. Gosto de aprender e estou sempre disponível para aprendizados." : "I've worked on some projects, learning how to create desktop and web applications. I like to learn and I'm always available for apprenticeships."}
+              {isPortuguese ? "Trabalhei em alguns projetos, aprendendo a criar aplicações desktop e web. Gosto de aprender e estou sempre apto a aprendizados." : "I've worked on some projects, learning how to create desktop and web applications. I like to learn and I'm always available for apprenticeships."}
             </p>
           </SlideAnimation>
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "No futuro, pretendo me juntar a uma grande equipe para ganhar experiência e ajudar a alcançar seus objetivos." : "In the future, I intend to join a great team to earn experience and help meet your goals."}
+              {isPortuguese ? "No futuro, pretendo me juntar a uma equipe para ganhar experiência e ajudar a alcançar os objetivos do projeto." : "In the future, I intend to join a great team to earn experience and help meet the goals of the project."}
             </p>
           </SlideAnimation>
           <SlideAnimation>
@@ -35,7 +35,7 @@ export default function About() {
           </SlideAnimation>
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "Tenho boas habilidades de comunicação, sou fluente em Inglês, Espanhol e Português, e tenho boas habilidades de liderança para organizar um projeto." : "I'm a good comunicating person, i know English, Spanish and Portuguese and i think myself as a leader, helping organize a project."}
+              {isPortuguese ? "Tenho boas habilidades de comunicação, sou fluente em Inglês e Português, e tenho boas habilidades de liderança para organizar um projeto." : "I'm a good comunicating person, i know English and Portuguese and i think myself as a leader, helping organize a project."}
             </p>
           </SlideAnimation>
         </div>

@@ -49,7 +49,7 @@ export default function Hero() {
               <TypingAnimation start={1} end={10} interval={200} suffix="k" />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
-              {isPortuguese ? 'Linhas de\ncódigo escritas' : 'Lines of\ncode written'}
+              {isPortuguese ? 'linhas de\ncódigo escritas' : 'lines of\ncode written'}
               </span>
             </li>
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>

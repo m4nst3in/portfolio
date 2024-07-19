@@ -34,9 +34,11 @@ export default function Projects() {
             link="m4nst3in.vercel.app"
             repo="m4nst3in.vercel.app"
             langs={[
-              "Typescript",
+              "TypeScript",
               "React", 
+              "Vite",
               "Vue",
+              "Tailwind"
             ]}
           />
         </div>
