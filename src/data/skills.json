@@ -2,27 +2,26 @@
   {
     "name": "C#",
     "icon": "devicon:csharp",
-    "proficiency": "★★★★"
-  },
-  {
-    "name": "C++",
-    "icon": "devicon:cplusplus",
-    "proficiency": "★"
-  },
-  {
-    "name": ".NET",
-    "icon": "skill-icons:dotnet",
-    "proficiency": "★★★"
-  },
-
-  {
-    "name": "Xamarin",
-    "icon": "devicon:xamarin",
-    "proficiency": "★★"
+    "proficiency": "★★★★★"
   },
   {
     "name": "Java",
     "icon": "devicon:java",
+    "proficiency": "★★"
+  },
+  {
+    "name": ".NET",
+    "icon": "skill-icons:dotnet",
+    "proficiency": "★★★★"
+  },
+  {
+    "name": "Blazor",
+    "icon": "devicon:blazor",
+    "proficiency": "★★★"
+  },
+  {
+    "name": "Xamarin",
+    "icon": "devicon:xamarin",
     "proficiency": "★★"
   },
   {
