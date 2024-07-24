@@ -10,8 +10,8 @@
     "proficiency": "★★"
   },
   {
-    "name": ".NET",
-    "icon": "skill-icons:dotnet",
+    "name": ".NETCore",
+    "icon": "devicon:dotnetcore",
     "proficiency": "★★★★"
   },
   {
