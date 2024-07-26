@@ -20,14 +20,14 @@
     "proficiency": "★★★"
   },
   {
-    "name": "Xamarin",
-    "icon": "devicon:xamarin",
-    "proficiency": "★★"
-  },
-  {
     "name": "Spring",
     "icon": "devicon:spring",
     "proficiency": "★"
+  },
+  {
+    "name": "Xamarin",
+    "icon": "devicon:xamarin",
+    "proficiency": "★★"
   },
   {
     "name": "TypeScript",
