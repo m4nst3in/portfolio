@@ -32,7 +32,7 @@
   {
     "name": "TypeScript",
     "icon": "logos:typescript-icon",
-    "proficiency": "★★"
+    "proficiency": "★★★"
   },
   {
     "name": "Html",
@@ -42,22 +42,22 @@
   {
     "name": "Css",
     "icon": "vscode-icons:file-type-css",
-    "proficiency": "★★★"
+    "proficiency": "★★★★"
   },
   {
     "name": "React",
     "icon": "logos:react",
-    "proficiency": "★★"
+    "proficiency": "★★★★"
   },
   {
     "name": "Node.js",
     "icon": "logos:nodejs-icon",
-    "proficiency": "★★"
+    "proficiency": "★★★"
   },
   {
     "name": "Vite",
     "icon": "logos:vitejs",
-    "proficiency": "★★"
+    "proficiency": "★★★★"
   },
   {
     "name": "Vue",
@@ -67,7 +67,7 @@
   {
     "name": "Tailwind",
     "icon": "skill-icons:tailwindcss-light",
-    "proficiency": "★★★"
+    "proficiency": "★★★★"
   },
   {
     "name": "MySQL",
