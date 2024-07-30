@@ -1,15 +1,27 @@
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 import { Button } from "@/components/ui/button";
 import TypingAnimation from '@/components/TypingAnimation';
-
 import backgroundImage from '@/assets/images/fundo.jpg';
-import {
-  IoDocumentTextOutline,
-  IoChatbubbleEllipsesOutline,
-} from "react-icons/io5";
+import { IoDocumentTextOutline, IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { GiEagleEmblem } from "react-icons/gi";
 import { FaCrown } from "react-icons/fa";
 export default function Hero() {
+  const [commitCount, setCommitCount] = useState(0);
   const isPortuguese = navigator.language.startsWith('pt');
+
+  useEffect(() => {
+    async function fetchCommits() {
+      try {
+        const response = await axios.get('/api/commits');
+        setCommitCount(response.data.commitCount);
+      } catch (error) {
+        console.error('Failed to fetch commits', error);
+      }
+    }
+    fetchCommits();
+  }, []);
+
   return (
     <section className="h-[90vh] bg-gray-950 flex items-center" id="" style={{ backgroundImage: `url(${backgroundImage})` }}>
     <div className="text-center">
@@ -46,7 +58,7 @@ export default function Hero() {
                 className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl"
                 id="code-lines"
               >
-              <TypingAnimation start={1} end={10} interval={200} suffix="k" />
+              <TypingAnimation start={1} end={12} interval={200} suffix="k" />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
               {isPortuguese ? 'linhas de\ncódigo escritas' : 'lines of\ncode written'}
@@ -55,7 +67,7 @@ export default function Hero() {
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
             <li className="flex flex-col sm:flex-row items-center gap-2">
               <span className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl">
-              <TypingAnimation prefix="+" start={1} end={100} interval={13} />
+              <TypingAnimation start={0} end={commitCount} interval={11} />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
               {isPortuguese ? 'commits\nrealizados' : 'commits\nrealized'}

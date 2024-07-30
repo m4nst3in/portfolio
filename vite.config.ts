@@ -9,4 +9,14 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://m4portfolioapi-fsarftahh7f4fedu.brazilsouth-01.azurewebsites.net',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+    host: '127.0.0.1'
+  },
 });
