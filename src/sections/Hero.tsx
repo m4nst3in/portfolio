@@ -76,7 +76,7 @@ export default function Hero() {
           </ul>
         </div>
         <div className="text-center w-full mt-7 md:mt-10 ">
-          <Button onClick={() => window.location.href = '/assets/pdf/developer.pdf' } className="px-5 bg-gradient-to-r from-white to-sky-200 text-gray-900 font-medium text-md rounded-full mx-3 font-mono hover:bg-white hover:opacity-90 md:scale-150 md:mx-14">
+          <Button onClick={() => window.location.href = 'https://tan-lurette-5.tiiny.site/' } className="px-5 bg-gradient-to-r from-white to-sky-200 text-gray-900 font-medium text-md rounded-full mx-3 font-mono hover:bg-white hover:opacity-90 md:scale-150 md:mx-14">
             <IoDocumentTextOutline className="mr-1 h-4 w-4" />
             {isPortuguese ? 'Currículo' : 'Resume'}
           </Button>
