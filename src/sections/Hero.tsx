@@ -45,7 +45,7 @@ export default function Hero() {
         <div className="flex justify-center items-center mt-5">
           <ul className="gap-3 flex justify-between items-center sm:gap-12 text-white dark:text-gray-800 w-[calc(100dvw-5rem)] sm:w-fit">
             <li className="flex flex-col sm:flex-row items-center gap-2">
-              <span className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl">
+              <span className="flex items-center font-bold text-yellow-400 dark:bg-[#fff1] py-1 px-3 rounded-xl">
                 +2
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
@@ -55,7 +55,7 @@ export default function Hero() {
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
             <li className="flex flex-col sm:flex-row items-center gap-2">
               <span
-                className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl"
+                className="flex items-center font-bold text-yellow-400 dark:bg-[#fff1] py-1 px-3 rounded-xl"
                 id="code-lines"
               >
               <TypingAnimation start={1} end={12} interval={200} suffix="k" />
@@ -66,7 +66,7 @@ export default function Hero() {
             </li>
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
             <li className="flex flex-col sm:flex-row items-center gap-2">
-              <span className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl">
+              <span className="flex items-center font-bold text-yellow-400 dark:bg-[#fff1] py-1 px-3 rounded-xl">
               <TypingAnimation start={0} end={commitCount} interval={11} />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
