@@ -22,7 +22,7 @@ const TypingAnimation: React.FC<TypingAnimationProps> = ({ start, end, interval,
 
   return (
     <span
-      className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl"
+      className="flex items-center font-bold text-yellow-400 dark:bg-[#fff1] py-1 px-3 rounded-xl"
       id="code-lines"
     >
       {prefix}{currentValue}{suffix}
