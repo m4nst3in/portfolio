@@ -30,7 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <SlideAnimation>
-      <Card className="bg-gray-800 border-l-0 border-r-0 border-b-0 border-t-[0.4rem] border-sky-300 mt-4 md:max-w-[24rem] md:mx-2">
+      <Card className="bg-gray-800 border-l-0 border-r-0 border-b-0 border-t-[0.4rem] border-green-500 mt-4 md:max-w-[24rem] md:mx-2">
         <CardContent className="h-[13rem] p-2">
           <img
             src={image}
@@ -43,10 +43,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           
           <a className="text-green-500" href={link}>{title}</a>
           <div className="flex flex-row">
-            <a href={link} className="text-white h-5 w-5 mr-4 hover:text-sky-300 transition-all duration-300">
+            <a href={link} className="text-white h-5 w-5 mr-4 hover:text-yellow-400  transition-all duration-300">
               <Icon icon="fluent:open-48-filled" />
             </a>
-            <a href={repo} className="text-white hover:text-sky-300 transition-all duration-300">
+            <a href={repo} className="text-white hover:text-yellow-400 transition-all duration-300">
               <Icon icon="fontisto:github" />
             </a>
           </div>
