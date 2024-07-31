@@ -4,7 +4,6 @@ export default function Education() {
   const isPortuguese = navigator.language.startsWith('pt');
 
   return (
-    <>
       <section className="pb-5 w-full bg-gray-950" id="education">
         <header className="mx-6 pt-6 md:mx-10">
           <h1 className="text-green-500 font-bold text-3xl md:text-5xl">
@@ -21,6 +20,5 @@ export default function Education() {
           </TimelineItem>
         </div>
       </section>
-    </>
   );
 }

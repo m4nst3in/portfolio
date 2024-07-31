@@ -4,7 +4,6 @@ export default function About() {
   const isPortuguese = navigator.language.startsWith('pt');
 
   return (
-    <>
       <section className="pb-5 w-full bg-gray-950" id="about">
         <header className="mx-6 pt-6 md:mx-10">
           <h1 className="text-green-500 font-bold text-3xl md:text-5xl">
@@ -15,7 +14,7 @@ export default function About() {
         <div className="mx-6 md:ml-10 md:mr-40 mt-8">
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "Olá. Meu nome é Vinícius, nasci em Teodoro Sampaio, e sou um desenvolvedor full-stack C# de 17 anos, focado principalmente em aplicações desktop, e estou nessa área há mais de dois anos." : "Hi! I'm Vinicíus, and i was born in Teodoro Sampaio. I'm a 17-year-old full-stack C# developer, mainly focusing on desktop applications, and I've been doing this for over two years now."}
+              {isPortuguese ? "Olá. Meu nome é Vinícius, nasci em Teodoro Sampaio, e sou um desenvolvedor full-stack .NET de 17 anos, focado principalmente em aplicações desktop, e estou nessa área há mais de dois anos." : "Hi! I'm Vinicíus, and i was born in Teodoro Sampaio. I'm a 17-year-old full-stack .NET developer, mainly focusing on desktop applications, and I've been doing this for over two years now."}
             </p>
           </SlideAnimation>
           <SlideAnimation>
@@ -40,6 +39,5 @@ export default function About() {
           </SlideAnimation>
         </div>
       </section>
-    </>
   );
 }

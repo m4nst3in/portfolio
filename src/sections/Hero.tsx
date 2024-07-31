@@ -34,7 +34,7 @@ export default function Hero() {
       <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight md:text-7xl text-white mt-1 md:mx-20">
         {isPortuguese ? 'Desenvolvedor' : 'Full-stack'}{" "}
         <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-green-500">
-          C# & .NET
+          .NET
         </b>{" "}
         {isPortuguese ? 'especializado em aplicações' : 'developer creating'}{" "}
         <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500">
@@ -46,7 +46,7 @@ export default function Hero() {
           <ul className="gap-3 flex justify-between items-center sm:gap-12 text-white dark:text-gray-800 w-[calc(100dvw-5rem)] sm:w-fit">
             <li className="flex flex-col sm:flex-row items-center gap-2">
               <span className="flex items-center font-bold text-green-500 dark:bg-[#fff1] py-1 px-3 rounded-xl">
-                +1
+                +2
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
               {isPortuguese ? 'ano de\nexperiência' : 'year of\nexperience'}

@@ -29,16 +29,17 @@ export default function Projects() {
               />
               <Project
                   title="m4Portfolio"
-                  description={isPortuguese ? "Meu website pessoal, construído com TypeScript, React, ASP.NET Core, Vite & Tailwind CSS." : "My personal website, constructed with TypeScript, React, ASP.NET Core, Vite & Tailwind CSS."}
+                  description={isPortuguese ? "Meu website pessoal, construído com TypeScript, React, Vite, Tailwind CSS, C#(API) & ASP.NET Core." : "My personal website, constructed with TypeScript, React, Vite, Tailwind CSS, C#(API) & ASP.NET Core."}
                   image={ssThumbnail2}
                   link="m4nst3in.vercel.app"
                   repo="m4nst3in.vercel.app"
                   langs={[
                       "TypeScript",
                       "React",
-                      ".NET",
                       "Vite",
-                      "Tailwind"
+                      "Tailwind",
+                      "C#",
+                      ".NET",
                   ]}
               />
           </div>
