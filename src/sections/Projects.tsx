@@ -31,8 +31,8 @@ export default function Projects() {
                   title="m4Portfolio"
                   description={isPortuguese ? "Meu website pessoal, construído com TypeScript, Tailwind CSS & React." : "My personal website, constructed with TypeScript, Tailwind CSS & React."}
                   image={ssThumbnail2}
-                  link="m4nst3in.vercel.app"
-                  repo="m4nst3in.vercel.app"
+                  link="https://m4nst3in.vercel.app"
+                  repo="https://github.com/m4nst3in/portfolio"
                   langs={[
                       "TypeScript",
                       "React",
