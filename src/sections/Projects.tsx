@@ -47,7 +47,7 @@ export default function Projects() {
                   title="VulcanWebsite"
                   description={isPortuguese ? "Um website para um mod menu de GTA V, construído com TypeScript & React." : "A website for a GTA V mod menu, constructed with TypeScript & React."}
                   image={ssThumbnail3}
-                  link="https://m4nst3in.vercel.app"
+                  link="https://vulcanwebsite.vercel.app"
                   repo="https://github.com/m4nst3in/GtaMenuWebsite"
                   langs={[
                       "TypeScript",
