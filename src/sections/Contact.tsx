@@ -39,7 +39,7 @@ export default function Contact() {
           </SlideAnimation>
           <SlideAnimation>
             <a
-                href="https://instagram.com/vinii.b.g"
+                href="https://instagram.com/m4.viniiy"
                 className="flex flex-row text-sky-300 items-center mt-5 mr-3"
             >
               <Icon className="h-16 w-16" icon="skill-icons:instagram"/>
