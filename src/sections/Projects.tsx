@@ -1,6 +1,7 @@
 import Project from "@/components/ProjectCard";
 import ssThumbnail1 from "@/assets/images/m4Installers.png";
 import ssThumbnail2 from "@/assets/images/portfolio.png";
+import ssThumbnail3 from "@/assets/images/vulcan.png";
 
 export default function Projects() {
   const isPortuguese = navigator.language.startsWith('pt');
@@ -40,6 +41,18 @@ export default function Projects() {
                       "Tailwind",
                       "C#",
                       ".NET",
+                  ]}
+              />
+              <Project
+                  title="VulcanWebsite"
+                  description={isPortuguese ? "Um website para um mod menu de GTA V, construído com TypeScript & React." : "A website for a GTA V mod menu, constructed with TypeScript & React."}
+                  image={ssThumbnail3}
+                  link="https://m4nst3in.vercel.app"
+                  repo="https://github.com/m4nst3in/GtaMenuWebsite"
+                  langs={[
+                      "TypeScript",
+                      "React",
+                      "Vite",
                   ]}
               />
           </div>
