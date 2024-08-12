@@ -45,7 +45,7 @@ export default function Contact() {
               <Icon className="h-16 w-16" icon="skill-icons:instagram"/>
               <div className="flex flex-col">
                 <h1 className="text-white text-2xl font-bold mx-2">Instagram</h1>
-                <p className="text-gray-400 mx-2">/vinii.b.g</p>
+                <p className="text-gray-400 mx-2">/m4.viniiy</p>
               </div>
             </a>
           </SlideAnimation>
