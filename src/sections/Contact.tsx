@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="mx-6 md:mx-10 mt-5 flex flex-col md:flex-row md:flex-wrap mb-3">
           <SlideAnimation>
             <a
-                href="mailto:viniigoess@gmail.com"
+                href="mailto:m4nsdev@proton.me"
                 className="flex flex-row text-sky-300 items-center mt-5 mr-5"
             >
               <Icon className="h-16 w-16" icon="ic:baseline-email"/>
@@ -21,7 +21,7 @@ export default function Contact() {
                 <h1 className="text-white text-2xl font-bold mx-2">
                   Email
                 </h1>
-                <p className="text-gray-400 mx-2">viniigoess@gmail.com</p>
+                <p className="text-gray-400 mx-2">m4nsdev@proton.me</p>
               </div>
             </a>
           </SlideAnimation>
@@ -39,13 +39,13 @@ export default function Contact() {
           </SlideAnimation>
           <SlideAnimation>
             <a
-                href="https://instagram.com/m4.viniiy"
+                href="https://discord.com/app"
                 className="flex flex-row text-sky-300 items-center mt-5 mr-3"
             >
-              <Icon className="h-16 w-16" icon="skill-icons:instagram"/>
+              <Icon className="h-16 w-16" icon="skill-icons:discord"/>
               <div className="flex flex-col">
-                <h1 className="text-white text-2xl font-bold mx-2">Instagram</h1>
-                <p className="text-gray-400 mx-2">/m4.viniiy</p>
+                <h1 className="text-white text-2xl font-bold mx-2">Discord</h1>
+                <p className="text-gray-400 mx-2">/m4ns._</p>
               </div>
             </a>
           </SlideAnimation>
