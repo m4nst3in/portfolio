@@ -58,7 +58,7 @@ export default function Hero() {
                 className="flex items-center font-bold text-yellow-400 dark:bg-[#fff1] py-1 px-3 rounded-xl"
                 id="code-lines"
               >
-              <TypingAnimation start={1} end={192} interval={130} suffix="k" />
+              <TypingAnimation start={1} end={192} interval={100} suffix="k" />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
               {isPortuguese ? 'linhas de\ncódigo escritas' : 'lines of\ncode written'}
