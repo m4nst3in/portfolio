@@ -16,7 +16,7 @@ export default function Contact() {
                 href="mailto:m4nsdev@proton.me"
                 className="flex flex-row text-sky-300 items-center mt-5 mr-5"
             >
-              <Icon className="h-16 w-16" icon="ic:baseline-email"/>
+              <Icon className="h-16 w-16" icon="simple-icons:protonmail"/>
               <div className="flex flex-col">
                 <h1 className="text-white text-2xl font-bold mx-2">
                   Email
