@@ -64,7 +64,7 @@ export default function Hero() {
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
             <li className="flex flex-col sm:flex-row items-center gap-2">
               <span className="flex items-center font-bold text-yellow-400 dark:bg-[#fff1] py-1 px-3 rounded-xl">
-              <TypingAnimation start={0} end={commitCount} interval={11} />
+              <TypingAnimation start={0} end={416} interval={11} />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
               {isPortuguese ? 'commits\nrealizados' : 'commits\nrealized'}
