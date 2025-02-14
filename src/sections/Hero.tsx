@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import axios from 'axios';
 import { Button } from "@/components/ui/button";
 import TypingAnimation from '@/components/TypingAnimation';
 import backgroundImage from '@/assets/images/fundo.jpg';
@@ -13,8 +12,7 @@ export default function Hero() {
   useEffect(() => {
     async function fetchCommits() {
       try {
-        const response = await axios.get('/api/commits');
-        setCommitCount(response.data.commitCount);
+        setCommitCount(416);
       } catch (error) {
         console.error('Failed to fetch commits', error);
       }
@@ -64,7 +62,7 @@ export default function Hero() {
             <span className="h-8 border-r-[1px] border-dashed border-light-gray-secondary dark:border-dark-gray-secondary"></span>
             <li className="flex flex-col sm:flex-row items-center gap-2">
               <span className="flex items-center font-bold text-yellow-400 dark:bg-[#fff1] py-1 px-3 rounded-xl">
-              <TypingAnimation start={0} end={416} interval={11} />
+              <TypingAnimation start={0} end={commitCount} interval={11} />
               </span>
               <span className="text-[0.71rem] sm:text-[0.81rem] font-medium leading-[1] text-center sm:text-left">
               {isPortuguese ? 'commits\nrealizados' : 'commits\nrealized'}
