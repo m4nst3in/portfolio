@@ -1,7 +1,7 @@
 import Project from "@/components/ProjectCard";
 import ssThumbnail1 from "@/assets/images/m4Installers.png";
 import ssThumbnail2 from "@/assets/images/portfolio.png";
-import ssThumbnail3 from "@/assets/images/vulcan.png";
+import ssThumbnail3 from "@/assets/images/vulcan.jpg";
 
 export default function Projects() {
   const isPortuguese = navigator.language.startsWith('pt');
