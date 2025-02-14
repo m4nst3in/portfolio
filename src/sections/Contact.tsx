@@ -51,13 +51,13 @@ export default function Contact() {
           </SlideAnimation>
           <SlideAnimation>
             <a
-                href="https://linkedin.com/in/m4vinicius"
+                href="https://linkedin.com/in/m4nst3in"
                 className="flex flex-row text-sky-300 items-center mt-5 mr-3"
             >
               <Icon className="h-16 w-16" icon="skill-icons:linkedin"/>
               <div className="flex flex-col">
                 <h1 className="text-white text-2xl font-bold mx-2">LinkedIn</h1>
-                <p className="text-gray-400 mx-2">/in/m4vinicius</p>
+                <p className="text-gray-400 mx-2">/in/m4nst3in</p>
               </div>
             </a>
           </SlideAnimation>

@@ -13,11 +13,11 @@ export default function Experience() {
           <div className="h-1 w-14 rounded-full bg-gradient-to-r from-white to-sky-500 md:w-20 md:h-2"></div>
         </header>
         <div className="mx-6 pt-8 md:mx-10">
-          <TimelineItem title={isPortuguese ? 'Java' : 'Java'}>
-            {isPortuguese ? 'Desenvolvendo plugins Bukkit para Minecraft com Java e back-end de websites com SpringBoot' : 'Developing Minecraft Bukkit plugins with Java and back-end with SpringBoot'}
+          <TimelineItem title={isPortuguese ? 'JavaScript' : 'JavaScript'}>
+            {isPortuguese ? 'Desenvolvimento de scripts para realizar atividades automaticamente no KhanAcademy' : 'Developing scripts to do automatically lessons on KhanAcademy'}
           </TimelineItem>
-          <TimelineItem title={isPortuguese ? 'C# & .NET' : 'C# & .NET'}>
-            {isPortuguese ? 'Aplicações web/APIs com ASP.NET Core e aplicações de desktop com WPF/Xamarin' : 'Web applications/APIs with ASP.NET Core and desktop applications with WPF/Xamarin'}
+          <TimelineItem title={isPortuguese ? 'TypeScript/React' : 'TypeScript/React'}>
+            {isPortuguese ? 'Desenvolvimento de websites com animações e design de qualidade, como este agora' : 'Development of websites with animations and quality design, like this one'}
           </TimelineItem>
         </div>
       </section>

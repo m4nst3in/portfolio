@@ -14,7 +14,7 @@ export default function About() {
         <div className="mx-6 md:ml-10 md:mr-40 mt-8">
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "Olá. Meu nome é Vinícius, nasci em Teodoro Sampaio, e sou um desenvolvedor full-stack .NET de 17 anos, focado principalmente em aplicações desktop, e estou nessa área há mais de dois anos." : "Hi! I'm Vinicíus, and i was born in Teodoro Sampaio. I'm a 17-year-old full-stack .NET developer, mainly focusing on desktop applications, and I've been doing this for over two years now."}
+              {isPortuguese ? "Olá. Meu nome é Vinícius, nasci em Teodoro Sampaio, e sou um desenvolvedor de 18 anos, focado principalmente em aplicações web, e estou nessa área há mais de dois anos." : "Hi! I'm Vinicíus, and i was born in Teodoro Sampaio. I'm a 18-year-old full-stack developer, mainly focusing on desktop applications, and I've been doing this for over two years now."}
             </p>
           </SlideAnimation>
           <SlideAnimation>
@@ -24,17 +24,17 @@ export default function About() {
           </SlideAnimation>
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "No futuro, pretendo me juntar a uma equipe para ganhar experiência e ajudar a alcançar os objetivos do projeto." : "In the future, I intend to join a great team to earn experience and help meet the goals of the project."}
+              {isPortuguese ? "No futuro, pretendo me juntar a uma equipe para ganhar experiência e ajudar a alcançar os objetivos do projeto. Também estou atualmente cursando Análise e Desenvolvimento de Sistemas na Unoeste (FIPP) Presidente Prudente." : "In the future, I intend to join a great team to earn experience and help meet the goals of the project. I'm also right now coursing A.D.S at Unoeste (FIPP) Presidente Prudente."}
             </p>
           </SlideAnimation>
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "Meu objetivo é usar minhas habilidades para ajudar no desenvolvimento de projetos, especialmente no back-end." : "My aim is to use my skills to make things better, especially on the back-end."}
+              {isPortuguese ? "Meu objetivo é usar minhas habilidades para ajudar no desenvolvimento de projetos, especialmente em aplicações web, e aprender novas competências." : "My aim is to use my skills to make things better, especially on the back-end."}
             </p>
           </SlideAnimation>
           <SlideAnimation>
             <p className="text-sky-100 font-[400] text-md mt-3">
-              {isPortuguese ? "Tenho boas habilidades de comunicação, sou fluente em Inglês e Português, e tenho boas habilidades de liderança para organizar um projeto." : "I'm a good comunicating person, i know English and Portuguese and i think myself as a leader, helping organize a project."}
+              {isPortuguese ? "Tenho boas habilidades de comunicação, sou fluente em Inglês e Português, e tenho boas habilidades de liderança para organizar um projeto. Estou atualmente estudando sobre Design Patterns." : "I'm a good comunicating person, i know English and Portuguese and i think myself as a leader, helping organize a project."}
             </p>
           </SlideAnimation>
         </div>

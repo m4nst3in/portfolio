@@ -33,9 +33,6 @@ export default function Hero() {
       </div>
       <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight md:text-7xl text-white mt-1 md:mx-20">
         {isPortuguese ? 'Desenvolvedor' : 'Full-stack'}{" "}
-        <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-green-500">
-          .NET
-        </b>{" "}
         {isPortuguese ? 'especializado em aplicações' : 'developer creating'}{" "}
         <b className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500">
           {isPortuguese ? 'desktop & web' : 'desktop & web applications'}
@@ -76,7 +73,7 @@ export default function Hero() {
           </ul>
         </div>
         <div className="text-center w-full mt-7 md:mt-10 ">
-          <Button onClick={() => window.location.href = 'https://tan-lurette-5.tiiny.site/' } className="px-5 bg-gradient-to-r from-white to-sky-200 text-gray-900 font-medium text-md rounded-full mx-3 font-mono hover:bg-white hover:opacity-90 md:scale-150 md:mx-14">
+          <Button onClick={() => window.location.href = 'https://magenta-tuesday-64.tiiny.site/' } className="px-5 bg-gradient-to-r from-white to-sky-200 text-gray-900 font-medium text-md rounded-full mx-3 font-mono hover:bg-white hover:opacity-90 md:scale-150 md:mx-14">
             <IoDocumentTextOutline className="mr-1 h-4 w-4" />
             {isPortuguese ? 'Currículo' : 'Resume'}
           </Button>

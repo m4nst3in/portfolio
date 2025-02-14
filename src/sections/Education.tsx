@@ -13,10 +13,10 @@ export default function Education() {
         </header>
         <div className="mx-6 pt-8 md:mx-10">
           <TimelineItem title={isPortuguese ? 'Escola' : 'School'}>
-            {isPortuguese ? 'Estudando o 3º ano do Ensino Médio na E.E Arthur Ribeiro.' : 'Studying 3th High School at E.E Arthur Ribeiro.'}
+            {isPortuguese ? '3º ano do Ensino Médio na E.E Arthur Ribeiro.' : 'Studying 3th High School at E.E Arthur Ribeiro.'}
           </TimelineItem>
           <TimelineItem title={isPortuguese ? 'Universidade' : 'University'}>
-            {isPortuguese ? 'Pretendo estudar Análise e Desenvolvimento de Sistemas (ADS) na Unoeste.' : 'I pretend to study System Analysis and Development (ADS) in Unoeste.'}
+            {isPortuguese ? 'Atualmente cursando Análise e Desenvolvimento de Sistemas (ADS) na Unoeste (1º semestre).' : 'Im actually coursing System Analysis and Development (ADS) in Unoeste.'}
           </TimelineItem>
         </div>
       </section>
