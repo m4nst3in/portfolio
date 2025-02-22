@@ -50,7 +50,7 @@ export default function Projects() {
                   link="https://discord.gg/platformdestroyer"
                   repo="https://github.com/m4nst3in/pdestroyer-bot"
                   langs={[
-                      "Javascript",
+                      "JavaScript",
                   ]}
               />
           </div>

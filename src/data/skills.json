@@ -10,29 +10,19 @@
     "proficiency": "★★★★"
   },
   {
-    "name": "Blazor",
-    "icon": "devicon:blazor",
-    "proficiency": "★★★"
-  },
-  {
     "name": "Java",
     "icon": "devicon:java",
     "proficiency": "★★★"
   },
   {
-    "name": "Spring",
-    "icon": "devicon:spring",
-    "proficiency": "★"
-  },
-  {
-    "name": "Xamarin",
-    "icon": "devicon:xamarin",
-    "proficiency": "★★"
+    "name": "JavaScript",
+    "icon": "devicon:javascript",
+    "proficiency": "★★★"
   },
   {
     "name": "TypeScript",
     "icon": "logos:typescript-icon",
-    "proficiency": "★★★"
+    "proficiency": "★★"
   },
   {
     "name": "Html",
