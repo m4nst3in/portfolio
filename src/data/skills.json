@@ -2,17 +2,17 @@
   {
     "name": "C#",
     "icon": "devicon:csharp",
-    "proficiency": "★★★★★"
+    "proficiency": "★★★"
   },
   {
     "name": ".NET",
     "icon": "skill-icons:dotnet",
-    "proficiency": "★★★★"
+    "proficiency": "★★"
   },
   {
     "name": "Java",
     "icon": "devicon:java",
-    "proficiency": "★★★"
+    "proficiency": "★★"
   },
   {
     "name": "JavaScript",
@@ -27,7 +27,7 @@
   {
     "name": "Html",
     "icon": "vscode-icons:file-type-html",
-    "proficiency": "★★★★"
+    "proficiency": "★★★★★"
   },
   {
     "name": "Css",
