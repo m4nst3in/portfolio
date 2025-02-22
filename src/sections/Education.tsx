@@ -12,9 +12,6 @@ export default function Education() {
           <div className="h-1 w-14 rounded-full bg-gradient-to-r from-white to-sky-500 md:w-20 md:h-2"></div>
         </header>
         <div className="mx-6 pt-8 md:mx-10">
-          <TimelineItem title={isPortuguese ? 'Escola' : 'School'}>
-            {isPortuguese ? '3º ano do Ensino Médio na E.E Arthur Ribeiro.' : 'Studying 3th High School at E.E Arthur Ribeiro.'}
-          </TimelineItem>
           <TimelineItem title={isPortuguese ? 'Universidade' : 'University'}>
             {isPortuguese ? 'Atualmente cursando Análise e Desenvolvimento de Sistemas (ADS) na Unoeste (1º semestre).' : 'Im actually coursing System Analysis and Development (ADS) in Unoeste.'}
           </TimelineItem>
